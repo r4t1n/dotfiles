@@ -4,6 +4,6 @@ if status is-interactive
 
 	# Disable fish greeting
 	function fish_greeting
-		
+
 	end
 end
