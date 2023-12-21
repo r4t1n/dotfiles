@@ -1,4 +1,12 @@
 {
     "workbench.colorTheme": "Catppuccin Macchiato",
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "terminal.integrated.showExitAlert": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "go.alternateTools": {},
+    "go.gopath": "~/.local/go",
+    "go.toolsGopath": "~/.local/go",
 }

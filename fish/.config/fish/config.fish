@@ -9,4 +9,5 @@ if status is-interactive
 
 	# Set environment variables
 	set -x EDITOR vim
+	set -x GOPATH ~/.local/go
 end
