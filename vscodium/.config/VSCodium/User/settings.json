@@ -8,4 +8,6 @@
     "git.autofetch": true,
     "go.gopath": "~/.local/go",
     "go.toolsGopath": "~/.local/go",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
 }
