@@ -2,10 +2,6 @@
 
 ## Installation
 
-For the Firefox profile you can follow the instructions from [ffprofile.com](https://ffprofile.com/#finish)
-
-### GNU stow
-
 Install GNU stow from your package manager
 
 ```
