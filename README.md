@@ -1,6 +1,6 @@
 # dotfiles
 
-## Installation
+# Installation
 
 Install GNU stow from your package manager
 
