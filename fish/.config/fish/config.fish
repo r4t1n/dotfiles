@@ -4,9 +4,18 @@ if status is-interactive
 
 	end
 
-	# Initialize starship
+	# Initialize shell stuff
 	starship init fish | source
+	zoxide init --cmd cd fish | source
 
+	# Set aliases
+	alias aocd="aoc --input-only d"
+    	alias cat="bat"
+    	alias crg="cargo fmt && cargo check && cargo clippy && cargo build --release"
+    	alias ls="exa"
+    	alias off="shutdown -h now"
+    	alias plasma="startplasma-wayland"
+	
 	# Set environment variables
 	set -x EDITOR vim
 end
