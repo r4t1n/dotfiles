@@ -6,7 +6,7 @@ if status is-interactive
 	# Set aliases
 	alias cat="bat"
 	alias crg="cargo fmt && cargo check && cargo clippy && cargo build --release"
-	alias ls="exa"
+	alias ls="eza"
 	alias off="shutdown -h now"
 	
 	# Set environment variables
