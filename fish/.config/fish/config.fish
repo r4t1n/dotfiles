@@ -7,13 +7,18 @@ if status is-interactive
 	alias cat="bat"
 	alias crg="cargo fmt && cargo check && cargo clippy && cargo build --release"
 	alias ls="eza"
-	alias off="shutdown -h now"
-	
+	alias plasma="startplasma-wayland"
+	alias yeet-orphans="pacman -Qdtq | sudo pacman -Rns -"
+
 	# Set environment variables
 	set -x EDITOR vim
 
 	# Disable fish greeting
 	function fish_greeting
 	
+	end
+
+	function sudo!!
+		eval sudo $history[1]
 	end
 end
