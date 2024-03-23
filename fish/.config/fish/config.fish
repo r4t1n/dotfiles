@@ -7,12 +7,6 @@ if status is-interactive
 	alias ls="eza"
 	alias yeet-orphans="pacman -Qdtq | sudo pacman -Rns -"
 
-	set -x EDITOR vim
-
-	function fish_greeting
-	
-	end
-
 	function sudo!!
 		eval sudo $history[1]
 	end
