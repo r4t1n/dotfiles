@@ -1,4 +1,5 @@
 if status is-interactive
+	alias ntfy="curl -d 'Command finished' 10.2/commands"
 	alias upd="doas emerge --update --deep --newuse @world; curl -d 'Update complete' 10.2/commands"
 	alias yeet-orphans="doas emerge --depclean"
 
