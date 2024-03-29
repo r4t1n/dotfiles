@@ -5,7 +5,7 @@ if status is-interactive
 	alias cat="bat"
 	alias crg="cargo fmt; cargo clippy"
 	alias ls="eza"
-	alias update="paru; curl -d "Finished updating" 10.2/commands"
+	alias upd="paru; curl -d 'Update complete' 10.2/commands"
 	alias yeet-orphans="pacman -Qdtq | sudo pacman -Rns -"
 
 	function sudo!!
