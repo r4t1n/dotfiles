@@ -3,8 +3,8 @@ if status is-interactive
 	alias upd="doas emerge --update --deep --newuse @world; curl -d '$(cat /etc/hostname): Update complete' 10.2/updates"
 	alias yeet-orphans="doas emerge --depclean"
 
-	function sudo!!
-		eval sudo $history[1]
+	function doas!!
+		eval doas $history[1]
 	end
 end
 
