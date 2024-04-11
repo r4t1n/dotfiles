@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # rattop
-#sleep 2; powerprofilesctl set power-saver &
-#sleep 3; discord &
+#sleep 5; powerprofilesctl set power-saver &
 
 # shark
 #solaar --window hide &
